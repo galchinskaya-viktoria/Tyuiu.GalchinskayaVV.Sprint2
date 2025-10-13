@@ -6,11 +6,7 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task0.V7.Lib
     {
         public bool[] GetCompareOperations(int x, int y)
         {
-            throw new NotImplementedException();
-        }
 
-        public bool[] GetLogicOperations(int x, int y)
-        {
             var results = new bool[6];
 
             // Логические операции
