@@ -10,10 +10,10 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task0.V7.Lib
             var results = new bool[6];
 
             // Логические операции
-            results[0] = (x == y);              // False
-            results[1] = (x != y);              // True
+            results[0] = (x == x);              // False
+            results[1] = (x != x);              // True
             results[2] = (x < y);               // True
-            results[3] = (x > y);               // False
+            results[3] = (y > x);               // False
             results[4] = (x <= y);              // True
             results[5] = (x >= y);              // False
 
