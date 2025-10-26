@@ -3,24 +3,12 @@
 namespace Tyuiu.GalchinskayaVV.Sprint2.Task7.V2.Lib
 {
     // Требуемая доп. функция — здесь
-    public class Class1
-    {
-        public bool IsInside(double x, double y)
-        {
-            bool inCircle = x * x + y * y <= 1.0;
-            bool belowLine = y <= x / 2.0;
-            return inCircle && belowLine;
-        }
-    }
-
-    // Адаптер под интерфейс проверки
-    public class DataService : ISprint2Task7V2
+    public class Class1: ISpint2Task7V2
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            bool inCircle = x * x + y * y <= 1.0;
-            bool belowLine = y <= x / 2.0;
-            return inCircle && belowLine;
+            bool res = x * x + y * y <= 1.0 && y <= x / 2.0;
+            return res;
         }
     }
 }
