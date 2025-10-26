@@ -15,6 +15,8 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Lib
             switch (month)
             {
                 case 12:
+                    season = "Зима";
+                    break;
                 case 1:
                     season = "Зима";
                     break;
