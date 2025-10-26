@@ -1,11 +1,9 @@
 ﻿namespace Tyuiu.GalchinskayaVV.Sprint2.Task2.V16.Lib
 {
-    // Координаты: X — столбец 1..15 слева направо, Y — строка 1..15 сверху вниз.
-    // Вставь свою маску по рисунку: true = закрашено, false = пусто.
+    
     public class Class1
     {
-        // Шаблон. ЗАМЕНИ содержимое на реальную маску для варианта 16.
-        // 15 строк по 15 значений в каждой.
+        
         private static readonly bool[,] Mask = new bool[15, 15]
         {
             // Y=1
@@ -43,7 +41,6 @@
         public bool IsInside(int x, int y)
         {
             if (x < 1 || x > 15 || y < 1 || y > 15) return false;
-            // индексация массива с нулей: [y-1, x-1]
             return Mask[y - 1, x - 1];
         }
     }
