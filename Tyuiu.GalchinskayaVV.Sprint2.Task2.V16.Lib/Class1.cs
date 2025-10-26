@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.GalchinskayaVV.Sprint2.Task2.V16.Lib
+﻿namespace Tyuiu.GalchinskayaVV.Sprint2.Task2.V16.Lib 
 {
     
     public class Class1
