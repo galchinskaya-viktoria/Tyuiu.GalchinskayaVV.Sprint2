@@ -13,14 +13,10 @@ Console.WriteLine("* УСЛОВИЕ: Написать программу, кот
 Console.WriteLine("* координатами (X,Y) в заштрихованной области.                            *");
 Console.WriteLine("***************************************************************************");
 
-Console.Write("Введите X (1..15): ");
-int x = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите Y (1..15): ");
-int y = Convert.ToInt32(Console.ReadLine());
-
-DataService ds = new DataService();
-bool result = ds.IsInArea(x, y);
-
-Console.WriteLine("***************************************************************************");
-Console.WriteLine(result ? "Точка находится в заштрихованной области." : "Точка вне области.");
-Console.ReadKey();
+int x, y;
+x = Convert.ToInt32(Console.ReadLine());
+y = Convert.ToInt32(Console.ReadLine());
+if (ds.CheckDotInShadedArea(x, y))
+    Console.WriteLine("Точка находится" + ds.CheckDotInShadedArea(x, y));
+else
+    Console.WriteLine("Точка не находится" + ds.CheckDotInShadedArea(x, y));
