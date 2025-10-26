@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.GalchinskayaVV.Sprint2.Task1.V16.Lib
+﻿namespace Tyuiu.GalchinskayaVV.Sprint2.Task2.V16.Lib
 {
     // Координаты: X — столбец 1..15 слева направо, Y — строка 1..15 сверху вниз.
     // Вставь свою маску по рисунку: true = закрашено, false = пусто.
