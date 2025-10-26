@@ -8,7 +8,7 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Lib
     {
         private int month;
 
-        public string FindMonthSeason(int value)
+        public string FindSeason(int value)
         {
             string season;
 
@@ -38,13 +38,9 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Lib
                     season = "Ошибка: номер месяца должен быть от 1 до 12";
                     break;
             }
-
             return season;
         }
 
-        public string? FindSeason(int v)
-        {
-            throw new NotImplementedException();
-        }
     }
+
 }

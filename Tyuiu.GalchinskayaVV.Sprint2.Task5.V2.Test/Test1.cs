@@ -1,4 +1,5 @@
 ﻿using Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Lib;
+using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
 
 namespace Tyuiu.GalchinskayaVV.Sprint2.Task6.V15.Test
 {
@@ -38,5 +39,6 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task6.V15.Test
             var ds = new Class1();
             Assert.AreEqual("Ошибка: номер месяца должен быть от 1 до 12", ds.FindSeason(15));
         }
+     
     }
 }
