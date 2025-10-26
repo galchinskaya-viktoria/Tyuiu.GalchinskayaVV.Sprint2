@@ -1,11 +1,14 @@
 ﻿using System;
 using tyuiu.cources.programming.interfaces.Sprint2;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Lib
 {
     public class Class1 : ISprint2Task5V2
     {
-        public string FindSeason(int month)
+        private int month;
+
+        public string FindMonthSeason(int value)
         {
             string season;
 
@@ -37,6 +40,11 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Lib
             }
 
             return season;
+        }
+
+        public string? FindSeason(int v)
+        {
+            throw new NotImplementedException();
         }
     }
 }

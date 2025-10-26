@@ -1,18 +1,16 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Lib;
- 
-namespace Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Test
+﻿using Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Lib;
+
+namespace Tyuiu.GalchinskayaVV.Sprint2.Task6.V15.Test
 {
     [TestClass]
-    public class Test1
+    public sealed class Test1
     {
         [TestMethod]
-        public void TestWinterMonth()
+        public void TestMethod1()
         {
             var ds = new Class1();
             Assert.AreEqual("Зима", ds.FindSeason(1));
         }
-
         [TestMethod]
         public void TestSpringMonth()
         {
@@ -42,4 +40,3 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Test
         }
     }
 }
-
