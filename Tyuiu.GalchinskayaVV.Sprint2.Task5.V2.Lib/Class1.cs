@@ -42,13 +42,13 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Lib
                     season = "Лето";
                     break;
                 case 9:
-                    season = "Осень";
+                    season = "осень";
                     break;
                 case 10:
-                    season = "Осень";
+                    season = "осень";
                     break;
                 case 11:
-                    season = "Осень";
+                    season = "осень";
                     break;
                 default:
                     season = "Ошибка: номер месяца должен быть от 1 до 12";
