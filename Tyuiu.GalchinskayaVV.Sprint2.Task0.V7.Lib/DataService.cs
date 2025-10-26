@@ -19,6 +19,11 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task0.V7.Lib
 
             return results;
         }
+
+        public bool[] GetLogicOperations(int x, int y)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 

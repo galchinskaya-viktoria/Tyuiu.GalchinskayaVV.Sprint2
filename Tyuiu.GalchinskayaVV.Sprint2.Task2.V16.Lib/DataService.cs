@@ -1,9 +1,14 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint2;
-
+ 
 namespace Tyuiu.GalchinskayaVV.Sprint2.Task2.V16.Lib
 {
     public class DataService : ISprint2Task2V16
     {
+        public bool CheckDotInShadedArea(int x, int y)
+        {
+            throw new NotImplementedException();
+        }
+
         // Метод из интерфейса — принимает координаты точки
         public bool IsInArea(int x, int y)
         {
