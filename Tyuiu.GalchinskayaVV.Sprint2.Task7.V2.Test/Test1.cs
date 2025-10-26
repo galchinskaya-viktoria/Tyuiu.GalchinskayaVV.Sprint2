@@ -9,7 +9,7 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task7.V2.Test
         [TestMethod]
         public void OnBoundaryIncluded()
         {
-            var c = new Class1();
+            var c = new DataService();
             // точка на окружности и на прямой: x=0.8944, y=0.4472 -> НЕ проходит, ниже прямой нужно
             Assert.IsFalse(c.IsInside(0.89442719, 0.4472136));
             // точка на окружности, ниже прямой
