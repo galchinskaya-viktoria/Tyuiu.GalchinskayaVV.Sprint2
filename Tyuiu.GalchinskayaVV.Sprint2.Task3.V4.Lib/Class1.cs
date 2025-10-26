@@ -40,7 +40,7 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task3.V4.Lib
                 y = (t + Math.Cos(t)) / (t - Math.Sin(t) + 12.0);
             }
 
-            return y;
+            return Math.Round(y, 3, MidpointRounding.AwayFromZero);
         }
     }
 }
