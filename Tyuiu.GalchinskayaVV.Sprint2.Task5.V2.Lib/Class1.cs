@@ -41,8 +41,10 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Lib
             return season;
         }
 
-        
-
+        public string? FindSeason(int v)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }

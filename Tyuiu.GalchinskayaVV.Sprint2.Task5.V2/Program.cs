@@ -21,5 +21,3 @@ string result = ds.FindSeason(month);
 
 Console.WriteLine("***************************************************************************");
 Console.WriteLine($"Результат: {result}");
-Console.ReadKey();
-
