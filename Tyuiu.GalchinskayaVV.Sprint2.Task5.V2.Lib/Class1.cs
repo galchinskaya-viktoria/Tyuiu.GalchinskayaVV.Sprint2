@@ -8,7 +8,7 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Lib
     {
         private int month;
 
-        public string FindSeason(int value)
+        public string FindMonthSeason(int value)
         {
             string season;
 
@@ -40,6 +40,8 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Lib
             }
             return season;
         }
+
+        
 
     }
 
