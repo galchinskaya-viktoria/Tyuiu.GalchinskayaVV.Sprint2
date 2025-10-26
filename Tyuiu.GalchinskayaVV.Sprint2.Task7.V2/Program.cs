@@ -8,8 +8,8 @@ double x = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
 Console.Write("Введите Y: ");
 double y = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
 
-var cls = new Class1();
-bool inside = cls.IsInside(x, y);
+var cls = new DataService();
+bool inside = cls.CheckDotInShadedArea(x, y);
 
 Console.WriteLine(inside ? "Точка в области" : "Точка вне области");
 Console.ReadKey();
