@@ -16,16 +16,11 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task7.V2.Lib
     // Адаптер под интерфейс проверки
     public class DataService : ISprint2Task7V2
     {
-        private readonly Class1 core = new Class1();
-
         public bool CheckDotInShadedArea(double x, double y)
         {
-            throw new NotImplementedException();
-        }
-
-        public bool IsInArea(double x, double y)
-        {
-            return core.IsInside(x, y);
+            bool inCircle = x * x + y * y <= 1.0;
+            bool belowLine = y <= x / 2.0;
+            return inCircle && belowLine;
         }
     }
 }
