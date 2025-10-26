@@ -1,5 +1,5 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint2;
-
+ 
 namespace Tyuiu.GalchinskayaVV.Sprint2.Task7.V2.Lib
 {
 
