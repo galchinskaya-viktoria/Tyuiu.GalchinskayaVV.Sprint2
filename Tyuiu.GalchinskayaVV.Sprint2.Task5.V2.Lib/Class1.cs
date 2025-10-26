@@ -12,7 +12,7 @@ namespace Tyuiu.GalchinskayaVV.Sprint2.Task5.V2.Lib
         {
             string season;
 
-            switch (month)
+            switch (value)
             {
                 case 12:
                     season = "Зима";
